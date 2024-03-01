@@ -7,9 +7,92 @@ body{
 }
 
 
-h1{
-    background-color: blue;
-    color: white;
-    text-align: ;
-    font-size: 50px;
+/* Common css */
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
 }
+
+
+img{
+    vertical-align: middle;
+}
+
+
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+
+
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+/* Common css */
+
+
+
+
+/* nav_bar part css start */
+#nav_bar{
+   padding: 50px 0; 
+}
+
+
+.menu_bar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo_part{
+    display: flex;
+    align-items: center;
+}
+
+.logo_part picture{
+    padding-right: 16px;
+}
+
+.logo_part h1{
+    color: #131318;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.logo_part h1 .uniqe_text{
+    color:  #FF5400;
+}
+.menu_item_part{
+    display: flex;
+    align-items: center;
+}
+
+.menu_item_part ul{
+    display: flex;
+    gap: 44px;
+    
+}
+
+
+
+
+.menu_item_part ul li a{
+    color:  #424247;
+    font-size: 18px;
+    font-weight: 400;
+    transition: all linear 0.3s;
+}
+
+.menu_item_part ul li a:hover{
+    color: #FF5400;
+    font-weight: 700;
+}
+
+/* nav_bar part css end */
