@@ -81,6 +81,17 @@ a {
   font-weight: 700;
 }
 
+.respons_icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+   display: none;
+}
+.respons_icon a {
+  color: #131318;
+}
+
 /* nav_bar part css end */
 
 /* hero_part css start */
@@ -94,7 +105,7 @@ a {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 106px 185px;
+  padding: 100px 185px;
   border-radius: 16px;
 }
 
@@ -118,15 +129,15 @@ a {
   display: flex;
   gap: 24px;
   border-radius: 8px;
-  background: rgba(255, 255, 255, 0.3);
+  background: #ffffff4d;
   justify-content: center;
   padding: 16px;
   margin-top: 48px;
 }
 
 .btn {
-  width: 170px;
-  padding: 16px;
+
+  padding: 16px 34px;
   border: none;
   border-radius: 8px;
   background: #fff;
@@ -142,6 +153,7 @@ a {
 }
 
 .fa-angle-down {
+  margin-left: 30px;
   font-size: 16px;
 }
 
@@ -248,9 +260,13 @@ a {
 }
 
 .destination_container {
-  display: grid;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  /* display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(3, 1fr);
+  gap: 24px; */
 }
 .destination_heading {
   display: flex;
@@ -276,7 +292,33 @@ a {
   padding-bottom: 48px;
 }
 
-.location_box1 {
+.box1 {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 24px;
+}
+.box2 {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 24px;
+}
+.box3 {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 24px;
+}
+
+/* .location_box3{
+  grid-column: 1/ span 3;
+}
+.location_box4{
+  grid-column: 4/ span 8;
+}
+.location_box5{
+  grid-column: 9/ span 12;
+} */
+
+/* .location_box1 {
   grid-column: 1 / span 6;
   grid-row: 1 / span 1;
 }
@@ -305,10 +347,12 @@ a {
 .location_box7 {
   grid-column: 6 / span 12;
   grid-row: 3 / span 3;
-}
+} */
 .destination_container img {
   width: 100%;
   height: 300px;
+  object-fit: cover;
+  border-radius: 16px;
 }
 
 /* destination_part css end */
@@ -345,11 +389,11 @@ a {
 }
 
 .service_container {
-  width: 1140px;
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
   gap: 24px;
-  justify-content: space-between;
 }
 
 .Hotels_part {
@@ -811,4 +855,8 @@ a {
   color: #131318;
   font-size: 16px;
   font-weight: 300;
+}
+
+.hide {
+  display: none;
 }
