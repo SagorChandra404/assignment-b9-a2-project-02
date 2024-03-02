@@ -274,7 +274,6 @@ a {
   line-height: 26px;
   width: 643px;
   padding-bottom: 48px;
-  
 }
 
 .location_box1 {
@@ -314,6 +313,241 @@ a {
 
 /* destination_part css end */
 
-
 /* service_part start */
+
+#service_part {
+  padding: 100px 0;
+}
+
+.service_heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.service_heading h1 {
+  color: #131318;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+  padding-bottom: 24px;
+}
+
+.service_heading p {
+  color: #131318b3;
+  align-items: center;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  width: 643px;
+  padding-bottom: 48px;
+}
+
+.service_container {
+  width: 1140px;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  justify-content: space-between;
+}
+
+.Hotels_part {
+  max-width: 573px;
+  padding: 32px;
+  border-radius: 16px;
+  border: 1px solid rgba(251, 181, 99, 0.2);
+  background: #fbb5630d;
+}
+.Hotels_part img {
+  padding-bottom: 32px;
+}
+
+.Hotels_part h3 {
+  color: #131318;
+  font-size: 24px;
+  font-weight: 800;
+  padding-bottom: 16px;
+}
+
+.Hotels_part p {
+  color: #5a5a5d;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.Service_part {
+  max-width: 573px;
+  padding: 32px;
+  border-radius: 16px;
+  border: 1px solid rgba(41, 206, 246, 0.2);
+  background: #29cef60d;
+}
+.Service_part img {
+  padding-bottom: 32px;
+}
+
+.Service_part h3 {
+  color: #131318;
+  font-size: 24px;
+  font-weight: 800;
+  padding-bottom: 16px;
+}
+
+.Service_part p {
+  color: #5a5a5d;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.price_part {
+  max-width: 573px;
+  padding: 32px;
+  border-radius: 16px;
+  border: 1px solid rgba(233, 68, 68, 0.2);
+  background: #e944440d;
+}
+.price_part img {
+  padding-bottom: 32px;
+}
+
+.price_part h3 {
+  color: #131318;
+  font-size: 24px;
+  font-weight: 800;
+  padding-bottom: 16px;
+}
+
+.price_part p {
+  color: #5a5a5d;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
 /* service_part end */
+
+/* deals_part css start */
+#deals_part {
+  /* padding: 100px 0; */
+}
+
+.deals_heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.deals_heading h1 {
+  color: #131318;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+  padding-bottom: 24px;
+}
+
+.deals_heading p {
+  color: #131318b3;
+  align-items: center;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  width: 643px;
+  padding-bottom: 48px;
+}
+
+.tour_discount {
+  background-image: url("../Images/Rectangle1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 56px;
+  border-radius: 16px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.tour_discount_deals {
+  width: 580px;
+  border-radius: 16px;
+  border: 2px solid #fff;
+  background: #ffffffcc;
+  backdrop-filter: blur(2.5px);
+  padding: 50px;
+}
+
+.tdpl {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  color: #5a5a5d;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.fa-clock,
+.fa-users,
+.fa-location-dot {
+  color: #ff5400;
+  margin-right: 8px;
+}
+
+.tour_discount_deals h3 {
+  color: #131318;
+  font-size: 24px;
+  font-weight: 800;
+  padding-top: 26px;
+}
+
+.tour_discount_deals p {
+  color: #5a5a5d;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  padding: 16px 0;
+}
+
+.price_option p {
+  color: #ff5400;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.book_btn {
+  width: 150px;
+  border: none;
+  padding: 14px 25px;
+  border-radius: 8px;
+  background: #ff5400;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.tour_discount_center {
+  background-image: url("../Images/Rectangle2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 56px;
+  border-radius: 16px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  margin: 24px 0;
+}
+
+.Packages_btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.btn_center {
+  padding: 14px 22px;
+  border-radius: 8px;
+  background: #ff5400;
+  border: none;
+}
+/* deals_part css start */
