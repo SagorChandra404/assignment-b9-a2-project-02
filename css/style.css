@@ -557,23 +557,23 @@ a {
 /* deals_part css start */
 
 /* perfect_place_part css start */
-#perfect_place_part{
+#perfect_place_part {
   padding: 100px 0;
 }
-.perfect_container{
+.perfect_container {
   width: 100%;
   display: flex;
+  gap: 24px;
   justify-content: space-between;
+  align-items: center;
 }
-.perfect_text{
-  width: 49%;
+.perfect_text {
+  width: 48%;
 }
-.perfact_video{
-  width: 49%;
+.perfact_video {
+  width: 48%;
+  max-width: 560px;
 }
-
-
-
 
 .perfect_text {
   max-width: 49%;
@@ -600,7 +600,7 @@ a {
 .perfect_text ul li {
   list-style-type: circle;
   padding-top: 24px;
-  color: #131318b3;
+  color: #131318;
   font-size: 16px;
   font-weight: 400;
 }
@@ -619,12 +619,139 @@ a {
   font-weight: 700;
 }
 .perfact_video {
-  max-width: 49%;
+  max-width: 50%;
 }
 
-.perfact_video img {
+.perfact_video .vid_tag {
+  width: 100%;
+}
+
+/* .perfact_video img {
   width: 100%;
   border-radius: 16px;
+} */
+
+.vid_tag {
+  border: 16px;
 }
 
 /* perfect_place_part css end */
+
+/* newsletter_part css start */
+#newsletter_part {
+}
+.newsletter_container {
+  display: flex;
+  gap: 24px;
+}
+
+.news_latter_from {
+  width: 40%;
+  max-width: 474px;
+  border-radius: 16px;
+  border: 1px solid #ff5400;
+  padding: 40px;
+}
+
+.news_latter_from h4 {
+  color: #131318;
+  font-size: 24px;
+  font-weight: 800;
+  padding-bottom: 16px;
+}
+
+.news_latter_from p {
+  color: #5a5a5d;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.news_latter_discount {
+  width: 58%;
+  max-width: 672px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.news_latter_from .enter_name {
+  display: block;
+  margin: 24px 0 16px 0;
+  width: 393px;
+  padding: 16px;
+  border-radius: 8px;
+  background: #1313180d;
+  border: none;
+}
+.news_latter_from .enter_mail {
+  display: block;
+  width: 393px;
+  padding: 16px;
+  border-radius: 8px;
+  background: #1313180d;
+  border: none;
+}
+
+.input_fild {
+  margin-top: 24px;
+  border-top: 1px solid #1313181a;
+}
+.enter_name placeholder {
+  color: #1313184d;
+  font-size: 16px;
+  font-weight: 400;
+}
+.enter_mail placeholder {
+  color: #1313184d;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.btn_Subscribe {
+  width: 393px;
+  border: none;
+  border-radius: 8px;
+  background: #ff5400;
+  padding: 14px;
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 800;
+  margin-top: 24px;
+}
+/* .news_latter_discount img {
+  width: 100%;
+  border-radius: 16px;
+} */
+
+.news_latter_discount {
+  background-image: url("../Images/newslatter.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.news_latter_discount .discount {
+  background-color: #ff5400;
+  width: 324px;
+  padding: 16px;
+  text-align: center;
+  border-radius: 16px;
+  position: relative;
+  transform: rotate(-19.628deg);
+  top: 24%;
+  left: 24%;
+}
+
+.discount p {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.discount h4 {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 800;
+}
+/* newsletter_part css end */
