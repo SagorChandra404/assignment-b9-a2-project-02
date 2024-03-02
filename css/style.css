@@ -549,5 +549,82 @@ a {
   border-radius: 8px;
   background: #ff5400;
   border: none;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 800;
 }
 /* deals_part css start */
+
+/* perfect_place_part css start */
+#perfect_place_part{
+  padding: 100px 0;
+}
+.perfect_container{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.perfect_text{
+  width: 49%;
+}
+.perfact_video{
+  width: 49%;
+}
+
+
+
+
+.perfect_text {
+  max-width: 49%;
+}
+
+.perfect_text h2 {
+  color: #131318;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.perfect_text p {
+  color: #131318b3;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  padding-top: 24px;
+}
+
+.perfect_text ul {
+  padding-left: 20px;
+}
+
+.perfect_text ul li {
+  list-style-type: circle;
+  padding-top: 24px;
+  color: #131318b3;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.btnR {
+  border: none;
+  border-radius: 16px;
+  padding: 14px 34px;
+  background-color: #ff5400;
+  margin-top: 32px;
+}
+.btnR a {
+  color: #fff;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 700;
+}
+.perfact_video {
+  max-width: 49%;
+}
+
+.perfact_video img {
+  width: 100%;
+  border-radius: 16px;
+}
+
+/* perfect_place_part css end */
