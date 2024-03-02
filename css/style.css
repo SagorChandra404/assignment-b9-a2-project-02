@@ -186,3 +186,73 @@ a {
 
 
 /* hero_part css end */
+
+
+
+/* tour_part css start */
+#tour_part{
+  padding: 100px 0;
+}
+.tour_container{
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  /* gap: 50px; */
+}
+
+.tour_text{
+  max-width: 49%;
+}
+
+.tour_text h1{
+  color: #131318;
+  font-size: 40px;
+  font-weight: 800;
+  
+}
+
+.tour_text p{
+  color: #131318b3;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  padding-top: 24px;
+}
+
+.tour_text ul{
+  padding-left: 20px;
+}
+
+.tour_text ul li{
+  list-style-type: circle ;
+  padding-top: 24px;
+  color: #131318b3;
+  font-size: 16px;
+  font-weight: 400;
+  
+  
+}
+
+.btnR{
+  border: none;
+  border-radius: 16px;
+  padding: 14px 34px;
+  background-color: #ff5400;
+  margin-top: 32px;
+}
+.btnR a{
+  color: #FFF;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 700;
+}
+.tour_img{
+  max-width: 49%;
+}
+
+.tour_img img{
+  width: 100%;
+  border-radius: 16px;
+}
+
+/* tour_part css end */
