@@ -690,7 +690,7 @@ width: 50%;
 }
 
 .news_latter_from {
-  width: 40%;
+  width: 45%;
   max-width: 474px;
   border-radius: 16px;
   border: 1px solid #ff5400;
@@ -777,7 +777,8 @@ width: 50%;
 }
 .news_latter_discount .discount {
   background-color: #ff5400;
-  width: 324px;
+  width: 50%;
+  max-width: 324px;
   padding: 16px;
   text-align: center;
   border-radius: 16px;
@@ -856,6 +857,4 @@ width: 50%;
   font-weight: 300;
 }
 
-.hide {
-  display: none;
-}
+
