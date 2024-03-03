@@ -37,14 +37,14 @@
     justify-content: center;
   }
 
-  #tour_part {
+  #tour_part , #perfect_place_part {
     padding: 20px 20px;
   }
-  .tour_container {
+  .tour_container ,.perfect_container {
     flex-direction: column;
   }
 
-  .tour_text {
+  .tour_text ,.perfect_text {
     max-width: 100%;
   }
 
@@ -52,7 +52,7 @@
     font-size: 20px;
   }
 
-  .tour_img {
+  .tour_img , .perfact_video{
     max-width: 100%;
     padding-top: 24px;
   }
@@ -107,7 +107,8 @@
     width: 310px;
   }
 
-  .tour_discount_center, .tour_discount {
+  .tour_discount_center,
+  .tour_discount {
     padding: 16px;
   }
   .tour_discount_deals {
@@ -120,19 +121,51 @@
     display: block;
   }
 
-  .tour_discount_deals p{
+  .tour_discount_deals p {
     padding: 5px;
   }
 
-  
   .fa-clock,
   .fa-users,
   .fa-location-dot {
     margin-right: 15px;
   }
-  /* .service_container{
-    flex-wrap: nowrap;
-    justify-content: center;
+
+  .Packages_btn {
+    display: none;
+  }
+
+  .perfect_container {
+    display: block;
+
+  }
+
+  .perfect_text {
+    width: 100%;
+  }
+
+
+  .perfect_text h2 {
+    font-size: 20px;
+  }
+
+
+  .perfact_video  {
+  width: 100%;
+  }
+  .vid_tag{
+  width: 100%;
+  }
+
+
+  #newsletter_part{
+    padding: 20px;
+  }
+  .newsletter_container{
     flex-direction: column;
-  } */
+  }
+
+  
+
+
 }
