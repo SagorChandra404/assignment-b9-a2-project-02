@@ -70,50 +70,66 @@
   .destination_heading h1 {
     font-size: 20px;
   }
- .destination_heading p{
+  .destination_heading p {
     width: 309px;
- }
+  }
 
   .box1 {
     grid-template-columns: repeat(1, 1fr);
   }
 
-  .box2{
-    grid-template-columns: repeat(1,1fr);
+  .box2 {
+    grid-template-columns: repeat(1, 1fr);
   }
-  .box3{
-    grid-template-columns: repeat(1,1fr);
+  .box3 {
+    grid-template-columns: repeat(1, 1fr);
   }
 
-  #service_part{
+  #service_part {
     padding: 20px 20px;
   }
-  .service_heading h1{
+  .service_heading h1 {
     font-size: 20px;
   }
 
-  .service_heading p{
+  .service_heading p {
     width: 310px;
   }
 
-  #deals_part{
+  #deals_part {
     padding: 0 20px;
   }
- 
-  .deals_heading h1{
+
+  .deals_heading h1 {
     font-size: 20px;
   }
-  .deals_heading p{
+  .deals_heading p {
     width: 310px;
   }
 
-  .tour_discount{
+  .tour_discount_center, .tour_discount {
     padding: 16px;
   }
-  .tour_discount_deals{
+  .tour_discount_deals {
     padding: 25px;
+    width: 100%;
+    height: 100%;
   }
 
+  .tdpl {
+    display: block;
+  }
+
+  .tour_discount_deals p{
+    padding: 5px;
+  }
+
+  
+  .fa-clock,
+  .fa-users,
+  .fa-location-dot {
+    margin-right: 15px;
+  }
   /* .service_container{
     flex-wrap: nowrap;
     justify-content: center;
